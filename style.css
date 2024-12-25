@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: coral;
+}
+.heading{
+    color: rgb(207, 26, 26);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainn{
+    max-width: 80;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+.personal{
+    color: rgb(207, 26, 26);
+    background-color:rgb(223, 130, 130);
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+.forpic{
+    color:rgb(218, 21, 21);
+}
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background :rgb(224, 92, 92);
+    border: 30px;
+    margin-top: 20px;
+}
+
+input[type="file"]::file.selector-button{
+    background-color: rgb(224, 92, 92);
+    cursor: pointer;
+    font-size: large;
+    color: white;
+    border-color:rgb(218, 21, 21) ;
+    border-radius: 10px; 
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: beige;
+    border-width: 3px;
+}
+
+#resumeOutput{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align:center ;
+    border: 3px solid beige;
+    color: rgb (207,26,26);
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fvectors%2Fpink-flower-background%2F3&psig=AOvVaw3tx15QgS6HKXNub7E3hx8V&ust=1734861569392000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPj8pZvNuIoDFQAAAAAdAAAAABAQ);
+  
+}
+
+h1{
+    background-color: beige;
+    color: rgb(218, 21, 21);
+    text-align: center;
+    font-size: 50px;
+}
+h2,p{
+    margin: 10px 0;
+}
+h2{
+    font-size: 35px;
+    font-family: cursive;
+}
+
+p{
+    color: coral;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img{
+    max-width: 600px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+@media(max-width: 600px){
+/*adjusting padding and font size for smaller screen*/
+body{
+    margin: 10px;
+}
+form{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+input,textArea{
+    font-size: 14px;
+    padding: 10px;
+}
+h2{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+}
+img{
+    max-width: 100px;
+}
+
+input[type="submit"]{
+    padding: auto;
+}
+#resumeOutput{
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: -3px;
+}
+}
+
+
